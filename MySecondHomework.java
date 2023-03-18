@@ -16,7 +16,7 @@ public class MySecondHomework {
 		System.out.println("Input the third side of the triangle");
 		int c = scann.nextInt();
 
-		double r = (a + b + c) / 2;
+		double r = (a + b + c) / 2.0;
 		double s = Math.sqrt(r * (r - a) * (r - b) * (r - c));
 
 		System.out.println("Your perimeter is " + r + "\n" + "Your squaer is " + s);
