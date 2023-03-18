@@ -8,7 +8,7 @@ public class MyThirdHomework {
 		Scanner scann = new Scanner(System.in);
 		System.out.println("Input the radius of a circle");
 		
-		double r = scann.nextInt();
+		double r = scann.nextDouble();
 		double length  = 2 * Math.PI * r;
 		
 		System.out.println(length);
