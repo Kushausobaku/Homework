@@ -1,7 +1,5 @@
 package first;
-
 import java.util.Scanner;
-
 public class MyThirdHomework {
 
 	public static void main(String[] args) {
