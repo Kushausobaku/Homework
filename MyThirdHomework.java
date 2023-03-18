@@ -11,7 +11,7 @@ public class MyThirdHomework {
 		double r = scann.nextDouble();
 		double length  = 2 * Math.PI * r;
 		
-		System.out.println(length);
+		System.out.println("Lenght of your circle is " +length);
 	}
 
 }
