@@ -17,11 +17,9 @@ public class MySecondHomework {
 		int c = scann.nextInt();
 
 		int r = (a + b + c) / 2;
-		double s;
-
-		s = Math.sqrt(r * (r - a) * (r - b) * (r - c));
+		double s = Math.sqrt(r * (r - a) * (r - b) * (r - c));
 
 		System.out.println("Your perimeter is " + r + "\n" + "Your squaer is " + s);
-
+		
 	}
 }
